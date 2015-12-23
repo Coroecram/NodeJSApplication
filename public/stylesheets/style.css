@@ -39,3 +39,7 @@ body {
 a {
   color: #00B7FF;
 }
+
+.content {
+  display: block;
+}
