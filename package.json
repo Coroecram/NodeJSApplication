@@ -6,9 +6,11 @@
   "dependencies": {
     "express": "^4.13.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^1.17.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec test"
   },
   "author": "Michael Budnick",
   "license": "ISC"
