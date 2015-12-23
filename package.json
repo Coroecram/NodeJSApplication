@@ -1,10 +1,12 @@
 {
   "name": "dev-test-frontend",
   "version": "1.0.0",
-  "description": "Front End Deb Test for Mic.com",
+  "description": "Front End Dev Test for Mic.com",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongodb": "~2.0.33",
+    "monk": "~1.0.1"
   },
   "devDependencies": {
     "mocha": "^1.17.1"
