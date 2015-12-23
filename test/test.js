@@ -6,7 +6,6 @@ describe('Server Test', function () {
     request.post('localhost:8080').end(function(res){
       expect(res).to.exist;
       expect(res.status).to.equal(200);
-      expect(res.body).to.contain('world');
       done();
     });
   });
